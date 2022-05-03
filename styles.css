@@ -1,0 +1,149 @@
+body {
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+header {
+    display: inline-block;
+    height: 69px;
+    max-height: fit-content;
+    align-content: center;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#logo {
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    margin: auto 0 auto 10px; 
+    padding-top: 10px;
+}
+
+
+header ul {
+    display: inline;
+    float: right; 
+}
+
+.navbar-items {
+    display: inline;
+    margin-right: 10px;   
+}
+
+.navbar-items a {
+    color: seashell;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 80px;
+    
+    
+}
+
+#mission {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url(images/img-mission-background.jpg);
+    border: 1px solid seashell;
+    border-collapse: collapse;
+    margin: 10px auto 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-bg {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: seashell;
+    border-bottom: 1px solid seashell;
+    border-top: 1px solid seashell;
+}
+
+#featured-tea {
+    flex-wrap: wrap;
+    width: 1000px; 
+    height: fit-content;
+    margin: 80px auto 80px auto;
+    text-align: center;
+}
+
+#tea-images {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#tea-images figure {
+    margin: 20px 7px;
+}
+
+#tea-images img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#locations {
+    display: flex;
+    height: 700px;
+    width: fit-content;
+    background-image: url(images/img-locations-background.jpg);
+    margin: 0 auto 80px auto;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#first-h3 {
+    position: absolute;
+    color: black;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+
+.location {
+    display: inline-block;
+    width: 300px; 
+    height: fit-content;
+    background-color: black;
+    margin: 15px 20px auto 20px;
+    text-align: center;
+    border: 1px solid seashell;
+    padding: 0;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid seashell;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer div {
+    text-align: center;
+    height: 200px;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
+}
