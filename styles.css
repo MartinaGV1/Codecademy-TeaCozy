@@ -112,7 +112,6 @@ main {
 #first-h3 {
     position: absolute;
     color: black;
-    width: 50px;
     margin: auto;
     display: block;
 }
@@ -122,7 +121,7 @@ main {
     width: 300px; 
     height: fit-content;
     background-color: black;
-    margin: 15px 20px auto 20px;
+    margin: 50px 20px auto 20px;
     text-align: center;
     border: 1px solid seashell;
     padding: 0;
